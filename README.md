@@ -1,0 +1,43 @@
+# Repository Coverage (chroma-combined)
+
+[Full report](https://htmlpreview.github.io/?https://github.com/PranavSShetty/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
+
+| Name                                                                  |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
+|---------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
+| src/haystack\_integrations/components/retrievers/chroma/retriever.py  |       63 |        0 |        4 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/chroma/document\_store.py |      545 |       32 |      178 |       16 |     93% |203-209, 254-255, 618-\>621, 631, 635, 678, 709, 760, 763-\>765, 766, 777-779, 808, 811-\>813, 814, 824-826, 864-866, 890, 906-908, 948-950, 989-991, 1410-\>1413, 1456-\>1461 |
+| src/haystack\_integrations/document\_stores/chroma/errors.py          |        8 |        0 |        0 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/chroma/filters.py         |       83 |        1 |       36 |        1 |     98% |        60 |
+| src/haystack\_integrations/document\_stores/chroma/utils.py           |       11 |        0 |        0 |        0 |    100% |           |
+| **TOTAL**                                                             |  **710** |   **33** |  **218** |   **17** | **94%** |           |
+
+
+## Setup coverage badge
+
+Below are examples of the badges you can use in your main branch `README` file.
+
+### Direct image
+
+[![Coverage badge](https://raw.githubusercontent.com/PranavSShetty/haystack-core-integrations/python-coverage-comment-action-data-chroma-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/PranavSShetty/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
+
+This is the one to use if your repository is private or if you don't want to customize anything.
+
+### [Shields.io](https://shields.io) Json Endpoint
+
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/PranavSShetty/haystack-core-integrations/python-coverage-comment-action-data-chroma-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/PranavSShetty/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
+
+Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
+It won't work with private repositories. It won't be refreshed more than once per five minutes.
+
+### [Shields.io](https://shields.io) Dynamic Badge
+
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2FPranavSShetty%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-chroma-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/PranavSShetty/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
+
+This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
+
+## What is that?
+
+This branch is part of the
+[python-coverage-comment-action](https://github.com/marketplace/actions/python-coverage-comment)
+GitHub Action. All the files in this branch are automatically generated and may be
+overwritten at any moment.
