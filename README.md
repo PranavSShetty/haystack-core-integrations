@@ -2,14 +2,17 @@
 
 [Full report](https://htmlpreview.github.io/?https://github.com/PranavSShetty/haystack-core-integrations/blob/python-coverage-comment-action-data-huggingface_api/htmlcov/index.html)
 
-| Name                                                                                      |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
-|------------------------------------------------------------------------------------------ | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/common/huggingface\_api/utils.py                               |       52 |        5 |       10 |        1 |     87% |   104-109 |
-| src/haystack\_integrations/components/embedders/huggingface\_api/document\_embedder.py    |      126 |        6 |       34 |        5 |     93% |179-180, 259-\>263, 263-\>267, 346-350, 379-383 |
-| src/haystack\_integrations/components/embedders/huggingface\_api/text\_embedder.py        |       84 |        4 |       28 |        6 |     91% |143-144, 167-\>177, 168-\>172, 172-\>177, 267, 269 |
-| src/haystack\_integrations/components/generators/huggingface\_api/chat/chat\_generator.py |      235 |        8 |       88 |       16 |     93% |135-\>139, 137-\>139, 187, 220-\>222, 422-423, 490, 521-\>524, 581-\>584, 593-594, 631-\>634, 647, 669-\>674, 701-\>694, 705-\>708, 721, 740-\>745 |
-| src/haystack\_integrations/components/rankers/huggingface\_api/ranker.py                  |       91 |        9 |       24 |        2 |     90% |233-235, 275-276, 283, 300-302 |
-| **TOTAL**                                                                                 |  **588** |   **32** |  **184** |   **30** | **92%** |           |
+| Name                                                                                           |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
+|----------------------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
+| src/haystack\_integrations/common/huggingface\_api/utils.py                                    |       65 |        5 |       10 |        1 |     89% |   137-142 |
+| src/haystack\_integrations/components/embedders/huggingface\_api/document\_embedder.py         |      152 |        6 |       46 |        5 |     94% |179-180, 288-\>292, 292-\>296, 389-393, 425-429 |
+| src/haystack\_integrations/components/embedders/huggingface\_api/sparse\_document\_embedder.py |       83 |        0 |       12 |        0 |    100% |           |
+| src/haystack\_integrations/components/embedders/huggingface\_api/sparse\_embedding\_utils.py   |       42 |        0 |       14 |        0 |    100% |           |
+| src/haystack\_integrations/components/embedders/huggingface\_api/sparse\_text\_embedder.py     |       41 |        0 |        4 |        0 |    100% |           |
+| src/haystack\_integrations/components/embedders/huggingface\_api/text\_embedder.py             |      108 |        4 |       40 |        6 |     93% |143-144, 198-\>208, 199-\>203, 203-\>208, 304, 306 |
+| src/haystack\_integrations/components/generators/huggingface\_api/chat/chat\_generator.py      |      260 |        8 |       96 |       14 |     94% |136-\>140, 138-\>140, 188, 221-\>223, 422-423, 519, 626-627, 665-\>668, 682, 704-\>709, 737-\>730, 741-\>744, 758, 777-\>782 |
+| src/haystack\_integrations/components/rankers/huggingface\_api/ranker.py                       |       91 |        9 |       24 |        2 |     90% |234-236, 276-277, 284, 301-303 |
+| **TOTAL**                                                                                      |  **842** |   **32** |  **246** |   **28** | **94%** |           |
 
 
 ## Setup coverage badge
