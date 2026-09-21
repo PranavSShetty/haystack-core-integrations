@@ -4,11 +4,10 @@
 
 | Name                                                                             |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |--------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/embedders/watsonx/document\_embedder.py    |       54 |        1 |        8 |        0 |     98% |       129 |
-| src/haystack\_integrations/components/embedders/watsonx/text\_embedder.py        |       40 |        3 |        4 |        0 |     93% |111, 166-167 |
-| src/haystack\_integrations/components/generators/watsonx/chat/chat\_generator.py |      167 |       15 |       54 |       10 |     87% |332, 364-365, 388-\>385, 401, 408, 480, 524, 530-\>522, 559-564, 569, 578 |
-| src/haystack\_integrations/components/generators/watsonx/generator.py            |       49 |        0 |        4 |        0 |    100% |           |
-| **TOTAL**                                                                        |  **310** |   **19** |   **70** |   **10** | **91%** |           |
+| src/haystack\_integrations/components/embedders/watsonx/document\_embedder.py    |       60 |        1 |       10 |        0 |     99% |       135 |
+| src/haystack\_integrations/components/embedders/watsonx/text\_embedder.py        |       46 |        5 |        6 |        0 |     90% |117, 172-175 |
+| src/haystack\_integrations/components/generators/watsonx/chat/chat\_generator.py |      177 |       15 |       56 |       10 |     88% |339, 374-375, 398-\>395, 411, 418, 491, 537, 543-\>535, 573-578, 583, 592 |
+| **TOTAL**                                                                        |  **283** |   **21** |   **72** |   **10** | **90%** |           |
 
 
 ## Setup coverage badge
